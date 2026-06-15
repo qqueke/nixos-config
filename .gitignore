@@ -1,0 +1,7 @@
+# Ignore machine-specific hardware config for reusable repo
+hardware-configuration.nix
+
+# Editor/temp files
+*.swp
+*~
+.DS_Store

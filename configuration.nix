@@ -5,10 +5,10 @@
 { config, lib, pkgs, ... }:
 
 {
-  imports =
-    [ # Include the results of the hardware scan.
-      ./hardware-configuration.nix
-    ];
+  imports = builtins.filter (x: x != null) [
+    # Include the results of the hardware scan if present.
+    (if builtins.pathExists ./hardware-configuration.nix then ./hardware-configuration.nix else null)
+  ];
 
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
