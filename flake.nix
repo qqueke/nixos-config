@@ -10,7 +10,7 @@
     };
 
     dotfiles = {
-      url = "github:qqueke/dotfiles";
+      url = "path:/home/qqueke/repos/dotfiles";
       flake = false;
     };
   };

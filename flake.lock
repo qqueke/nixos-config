@@ -3,17 +3,14 @@
     "dotfiles": {
       "flake": false,
       "locked": {
-        "lastModified": 1781558535,
-        "narHash": "sha256-KerYQz+sQrJTRDyZ5vbcW7EtP0p2ZP07SWYiY+0n+xA=",
-        "owner": "qqueke",
-        "repo": "dotfiles",
-        "rev": "af174a7245777e7c427542a01b749fe725dc2112",
-        "type": "github"
+        "lastModified": 1781809456,
+        "narHash": "sha256-IAUPf7Ud1RPajGh1bUJP6zYxGnFHjGP+KprnHAjIDuk=",
+        "path": "/home/qqueke/repos/dotfiles",
+        "type": "path"
       },
       "original": {
-        "owner": "qqueke",
-        "repo": "dotfiles",
-        "type": "github"
+        "path": "/home/qqueke/repos/dotfiles",
+        "type": "path"
       }
     },
     "home-manager": {
